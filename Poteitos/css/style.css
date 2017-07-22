@@ -1,0 +1,64 @@
+body {
+  background-image: url("background/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+@font-face {
+  font-family: poteitosFont;
+  src: url("fonts/Million Notes Demo.ttf");
+}
+
+#topMenu {
+  height: 50px;
+  width: auto;
+  overflow: hidden;
+}
+
+#inicio {
+  display: block;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#socialMenu{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.botones {
+  font-family: poteitosFont;
+  font-size: 50px;
+  float: right;
+  padding: 5px;
+}
+
+.circulo {
+  position: static;
+  border-radius: 50%;
+}
+
+.socialButton {
+  padding: 3px;
+}
+
+#mercancia {
+  display: none;
+}
+
+#eventos {
+  display: none;
+}
+
+#contacto {
+  display: none;
+}
